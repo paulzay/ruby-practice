@@ -6,3 +6,10 @@ To get started with TDD, see the `README.md` file in your
 `ruby/accumulate` directory.
 =end
 
+class Accumulate
+  attr_reader :accumulate
+
+  def initialize(accumulate)
+    @accumulate = accumulate
+  end
+end
